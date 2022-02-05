@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_pricing_boxes",
+  "info": {
+    "displayName": "pricingBox",
+    "icon": "list-alt"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "integer",
+      "required": true,
+      "default": 415
+    },
+    "parcelas": {
+      "type": "integer",
+      "required": true
+    },
+    "precoParcela": {
+      "type": "integer",
+      "required": true
+    },
+    "beneficios": {
+      "type": "richtext",
+      "required": true
+    },
+    "buton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}

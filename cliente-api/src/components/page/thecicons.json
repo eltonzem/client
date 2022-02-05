@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_thecicons",
+  "info": {
+    "displayName": "thecicons",
+    "icon": "toolbox"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
